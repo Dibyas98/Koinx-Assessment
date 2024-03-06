@@ -1,11 +1,16 @@
-import React from 'react'
-import './keyeventcard.css'
+import React from 'react';
+import './keyeventcard.css';
+import news from '../../assets/articles.png';
+import stock from '../../assets/stock.png';
 
-export default function KeyEventCard() {
+export default function KeyEventCard({ pic }) {
   return (
-    <div className='keyeventcard'>
-        <span><h6>logo</h6></span>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod voluptate quidem expedita sapiente inventore vel tenetur fuga, dolor,.</p>
+    <div className='keyeventcard' style={pic == 'stock'?{backgroundColor:'#Ebf9f4'}:{backgroundColor:'#e8f4fd'}}>
+      <span><img src={pic === 'news' ? news : stock} alt="" /></span>
+      <div>
+        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quas totam ratione incidunt? Voluptate voluptates repellat totam laborum non minus.</h6>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, sapiente asperiores. Suscipit aut, tempore molestiae eos ipsa voluptatem dolorem ducimus obcaecati non quasi aspernatur dolorum id quisquam maiores animi? Eius?</p>
+      </div>
     </div>
-  )
+  );
 }

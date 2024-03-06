@@ -4,6 +4,7 @@ import ChartSection from '../currenctChart/ChartSection'
 import Sentiment from '../sentiment/Sentiment'
 import About from '../about/About'
 import Team from '../team/Team'
+import Tokonomices from '../tokonomices/Tokonomices'
 
 export default function LeftSide() {
   return (
@@ -11,6 +12,7 @@ export default function LeftSide() {
       <ChartSection></ChartSection>
       <Sentiment></Sentiment>
       <About></About>
+      <Tokonomices></Tokonomices>
       <Team></Team>
     </div>
   )

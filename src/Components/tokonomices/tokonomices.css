@@ -1,0 +1,11 @@
+.tokonomices{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+.dounut{
+    height: 200px;
+}

@@ -20,13 +20,7 @@ export default function About() {
       </div>
       <hr />
       <h5>Already hold bitCoins</h5>
-      <div>
-        <h6>initial Distribution</h6>
-        <div>
-          ring
-        </div>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis odio laborum magnam commodi ullam, optio dolorum nobis corporis rerum ea modi nisi quos earum. Rem laboriosam facere nam debitis pariatur. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus voluptatibus assumenda, minus amet soluta distinctio voluptatem explicabo corporis vero expedita? Ullam libero numquam dicta ipsa assumenda quidem earum ea ipsum?</p>
-      </div>
+      
 
     </div>
   )

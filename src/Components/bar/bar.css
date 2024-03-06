@@ -1,0 +1,11 @@
+.bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.bar-line{
+    height: 7px;
+    border-radius: 2px;
+    background-color: #f7324c;
+}
