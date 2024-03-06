@@ -1,6 +1,7 @@
 import React from 'react'
 import './sentiment.css'
 import KeyEventCard from '../keyevent/KeyEventCard'
+import Analyst from '../analyst/Analyst'
 
 export default function Sentiment() {
   return (
@@ -11,9 +12,12 @@ export default function Sentiment() {
       
         <KeyEventCard></KeyEventCard>
         <KeyEventCard></KeyEventCard>
+        <KeyEventCard></KeyEventCard>
+        <KeyEventCard></KeyEventCard>
       
       </div>
       <h4>Analyst Estimates</h4>
+      <Analyst></Analyst>
     </div>
   )
 }

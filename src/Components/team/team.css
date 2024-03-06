@@ -1,0 +1,10 @@
+.team{
+    width: 100%;
+    background-color: white ;
+    padding: 1rem;
+}
+.team-people{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

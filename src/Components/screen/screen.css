@@ -13,3 +13,13 @@
     width: 30%;
     height: 100px;
 }
+
+
+@media screen and (max-width:480px) {
+    .screen{
+        padding: 1rem;
+    }
+    .screen-right{
+        display: none;
+    }
+}

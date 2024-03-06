@@ -1,0 +1,27 @@
+.teamcard{
+    width: 100%;
+    /* height: 100px; */
+    background-color: #EFF2F5;
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    align-items: center;
+}
+.teamcard-img{
+    width: 250px;
+    /* height:70px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.teamcard-img img{
+    width: 100%;
+    height: 70%;
+}
+
+@media screen and (max-width:480px) {
+    .teamcard{
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
