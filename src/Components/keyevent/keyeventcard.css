@@ -1,0 +1,13 @@
+.keyeventcard{
+    display: flex;
+    gap: 0.5rem;
+    background-color: #ebf9f4;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+.keyeventcard h6{
+background-color: #7fff00;
+border-radius: 50%;
+height: 30px;
+width: 30px;
+}

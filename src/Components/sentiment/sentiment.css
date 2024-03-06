@@ -1,0 +1,10 @@
+.sentiment{
+    width: 100%;
+    /* height: 100px; */
+    background-color: white;
+}
+.senitment-keyevent{
+    display: flex;
+    gap: 1rem;
+    padding: 0  1.5rem;
+}

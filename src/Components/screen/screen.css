@@ -1,3 +1,15 @@
 .screen{
     width: 100%;
+    /* display: flex; */
+    padding: 1rem 5rem;
+    
+}
+.screen-cont{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.screen-right{
+    width: 30%;
+    height: 100px;
 }
