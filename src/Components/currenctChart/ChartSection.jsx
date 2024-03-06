@@ -1,12 +1,12 @@
 import React from 'react'
 import './chartsection.css'
-import ChartTable from '../charttable/ChartTable'
+import TradingViewWidget from '../charttable/TradingViewWidget'
 
 export default function ChartSection() {
   return (
     <div className='chartsection'>
       
-      <ChartTable></ChartTable>
+      <TradingViewWidget></TradingViewWidget>
     </div>
   )
 }
