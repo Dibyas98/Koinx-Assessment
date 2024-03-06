@@ -4,9 +4,15 @@
     flex-direction: column;
     gap: 1rem;
 }
+.mobile{
+    display: none;
+}
 
 @media screen and (max-width:480px) {
     .leftside{
         width: 100%;
+    }
+    .mobile{
+        display: block;
     }
 }

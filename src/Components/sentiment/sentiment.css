@@ -6,15 +6,21 @@
     flex-direction: column;
     gap: 1rem;
     padding: 1.2rem;
+    border-radius: 10px;
 }
 .senitment-keyevent{
     display: flex;
     gap: 1rem;
-    padding: 0  1.5rem;
+    padding: 0  1rem;
     overflow-x: scroll;
     /* flex-wrap: wrap; */
     flex-direction: row;
 }
 .senitment-keyevent::-webkit-scrollbar {
     display: none; /* For Chrome, Safari, and Opera */
+}
+@media screen and (max-width:480px) {
+    .senitment-keyevent{
+        padding: 0;
+    }
 }

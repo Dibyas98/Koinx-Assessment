@@ -2,6 +2,7 @@
     width: 100%;
     background-color: white;
     padding: 1.2rem;
+    border-radius: 10px;
 }
 .about-para{
     display: flex;

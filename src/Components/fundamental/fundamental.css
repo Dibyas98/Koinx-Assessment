@@ -1,0 +1,9 @@
+.fundamental{
+    width: 100%;
+    /* height: 100px; */
+    display: flex;
+    gap: 5rem;
+}
+.fundamental-col{
+    width: 50%;
+}
