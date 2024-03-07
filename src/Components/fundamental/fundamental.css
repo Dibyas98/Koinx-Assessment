@@ -7,3 +7,16 @@
 .fundamental-col{
     width: 50%;
 }
+@media screen and (max-width:480px) {
+    .fundamental{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .fundamental-col{
+        width: 100%;
+    }
+    .fundamentalcard{
+        width: 100%;
+        padding: 0;
+    }
+}
