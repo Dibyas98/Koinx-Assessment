@@ -14,7 +14,7 @@ export default function Fundamental() {
                 console.log(error);
             }
         }
-        // fetchData()
+        fetchData()
     },[])
     console.log(coin);
     return (

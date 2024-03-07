@@ -1,5 +1,7 @@
 import React from 'react'
 import './about.css'
+import already1 from '../../assets/alradyhold1.png';
+import already2 from '../../assets/alradyhold2.png';
 
 export default function About() {
   return (
@@ -20,6 +22,11 @@ export default function About() {
       </div>
       <hr />
       <h5>Already hold bitCoins</h5>
+      <div>
+        <img src={already1} alt="" />
+        <img src={already2} alt="" />
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ratione reprehenderit ipsam eos facilis voluptatem atque quis eligendi! Expedita tempore natus impedit similique, nesciunt ipsam tenetur sint voluptatum dolorum fugit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus perferendis nostrum aspernatur. Reiciendis autem atque, iste minus maiores hic vel minima ea quibusdam tempora debitis repellendus, eveniet, error distinctio sunt!</p>
       
 
     </div>
