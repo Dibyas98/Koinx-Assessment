@@ -1,11 +1,12 @@
 import React from 'react'
 import './navbar.css'
 import { Menu } from 'lucide-react';
+import logo from '../../assets/logo.png'
 export default function Navbar() {
   return (
     <nav className='navbar'>
         <div className='navbar-logo'>
-            <h1>Logo</h1>
+            <img src={logo} alt="" />
             <Menu className='navbar-menu-bar'></Menu>
         </div>
         <div className='navbar-menu'>

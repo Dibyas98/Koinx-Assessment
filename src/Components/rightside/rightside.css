@@ -7,3 +7,14 @@
     align-items: center;
     /* height: 100%; */
 }
+.trandingcoin{
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.trandingcoin img{
+    width: 100%;
+}

@@ -14,6 +14,9 @@ width: 40%;
 display: flex;
 justify-content: space-between;
 }
+.navbar-logo img{
+    width: 20%;
+}
 .navbar-menu-bar{
     display: none;
 }
@@ -24,7 +27,8 @@ justify-content: space-between;
     width: calc(100%);
     display: flex;
     /* background-color: aqua; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 2.5rem;
 }
 .navbar-menu li{
     list-style: none;

@@ -1,0 +1,35 @@
+.performancnavbar{
+    padding:0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.performancnavbar ul{
+    display: flex;
+    /* justify-content: space-between;
+     */
+     gap: 2rem;
+}
+.performancnavbar li{
+    list-style: none;
+}
+.active{
+    color: rgb(85, 85, 233);
+    font-weight: 600;
+    position: relative;
+    
+}
+.active::after{
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    content: '';
+    width: 70px;
+    height: 1px;
+    background-color: rgb(85, 85, 233);
+}
+@media screen and (max-width:480px) {
+    .hide-nav{
+        display: none;
+    }
+}

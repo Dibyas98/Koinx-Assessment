@@ -8,11 +8,13 @@ import Tokonomices from '../tokonomices/Tokonomices'
 import RightSide from '../rightside/RightSide'
 import Performance from '../perfomance/Performance'
 import YouMayLike from '../Youmaylike/YouMayLike'
+import PerformanceNavbar from '../../performancenavbar/PerformanceNavbar'
 
 export default function LeftSide() {
   return (
     <div className='leftside'>
       <ChartSection></ChartSection>
+      <PerformanceNavbar></PerformanceNavbar>
       <Performance></Performance>
       <Sentiment></Sentiment>
       <About></About>
