@@ -31,6 +31,15 @@ justify-content: space-between;
     font-weight: 600;
     cursor: pointer;
 }
+.navbar button{
+    width: 100px;
+    height: 30px;
+    background-color: #376ef0c8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
 
 
 /* FOR SMALL SCREEN THAT IS FOR WIDTH 480PX */

@@ -6,7 +6,7 @@ export default function About() {
     <div className='about'>
       <h1>About bitCoins</h1>
       <div>
-        <h6>What is bitcoins</h6>
+        <h5>What is bitcoins</h5>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et maxime error, tempore, eius esse eum obcaecati, voluptatem harum repellat tenetur assumenda beatae non. Nisi alias soluta nesciunt aperiam eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse officiis, nesciunt cumque ullam modi cupiditate aut quisquam vero sunt odit corporis pariatur, laudantium maxime ex fugit dolore rerum. Cupiditate.</p>
       </div>
       <hr />

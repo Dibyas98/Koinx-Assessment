@@ -16,6 +16,12 @@ height: 30px;
 width: 30px;
 object-fit: cover;
 }
+.keyeventcard h6{
+    font-size: 0.9rem;
+}
+.keyeventcard p{
+    font-size: 0.8rem;
+}
 @media screen and (max-width:480px) {
     .keyeventcard{
         width: 100%;
