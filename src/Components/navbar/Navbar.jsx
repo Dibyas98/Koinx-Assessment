@@ -14,7 +14,7 @@ export default function Navbar() {
                 <li>Crypto-Taxes</li>
                 <li>Free Tools</li>
                 <li>Resources Center</li>
-                <li><button>Get Started</button></li>
+                <li className='btn'><button>Get Started</button></li>
             </ul>
         </div>
       

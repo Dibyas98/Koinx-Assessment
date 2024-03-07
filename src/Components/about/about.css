@@ -16,3 +16,9 @@
     font-size: 1rem;
     /* color:#7c8793 */
 }
+.already{
+    display: flex;
+}
+.already img{
+    width: 45%;
+}

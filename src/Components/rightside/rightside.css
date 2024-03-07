@@ -7,6 +7,9 @@
     align-items: center;
     /* height: 100%; */
 }
+.rightside img{
+    width: 100%;
+}
 .trandingcoin{
     width: 100%;
     border-radius: 10px;

@@ -22,7 +22,7 @@ export default function About() {
       </div>
       <hr />
       <h5>Already hold bitCoins</h5>
-      <div>
+      <div className='already'>
         <img src={already1} alt="" />
         <img src={already2} alt="" />
       </div>

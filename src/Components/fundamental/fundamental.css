@@ -7,7 +7,7 @@
 .fundamental-col{
     width: 50%;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:780px) {
     .fundamental{
         flex-direction: column;
         gap: 1rem;
